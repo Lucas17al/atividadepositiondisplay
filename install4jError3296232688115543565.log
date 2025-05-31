@@ -1,0 +1,96 @@
+Exception:
+
+java.lang.RuntimeException: java.io.IOException: write failed
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeOther(HelperCommunication.java:344)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionInt(HelperCommunication.java:279)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeAction(HelperCommunication.java:244)
+	at com.install4j.runtime.installer.helper.registry.InstallRegistry.registerApplication(InstallRegistry.java:31)
+	at com.install4j.runtime.installer.InstallerContextImpl.finish(InstallerContextImpl.java:329)
+	at com.install4j.runtime.installer.controller.Controller.handleCommand(Controller.java:297)
+	at com.install4j.runtime.installer.controller.Controller.start(Controller.java:135)
+	at com.install4j.runtime.installer.Installer.runInProcess(Installer.java:74)
+	at com.install4j.runtime.installer.Installer.main(Installer.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: java.io.IOException: write failed
+	at com.install4j.runtime.installer.helper.comm.InterProcessCommunication.writeDataBlock(InterProcessCommunication.java:167)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.sendObject(HelperCommunication.java:508)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeOther(HelperCommunication.java:307)
+	... 15 more
+
+System properties:
+
+sun.desktop=windows
+awt.toolkit=sun.awt.windows.WToolkit
+java.specification.version=11
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\PROFES~1\AppData\Local\Temp\e4jD6DE.tmp_dir1748385095\i4jruntime.jar;C:\Users\PROFES~1\AppData\Local\Temp\e4jD6DE.tmp_dir1748385095\user.jar
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Eclipse Adoptium
+sun.arch.data.model=64
+install4j.exeDir=C:\Users\Professor\Downloads\
+user.variant=
+java.vendor.url=https://adoptium.net/
+install4j.systemLanguage=pt
+user.timezone=America/Sao_Paulo
+os.name=Windows 10
+java.vm.specification.version=11
+user.country=BR
+sun.boot.library.path=c:\users\profes~1\appdata\local\temp\e4jd6de.tmp_dir1748385095\jre\bin
+sun.java.command=C:\Users\Professor\Downloads\IRPF2025Win64v1.3.exe
+jdk.debug=release
+sun.cpu.endian=little
+user.home=C:\Users\Professor
+exe4j.unextractedPosition=54646906
+user.language=pt_BR
+jdk.http.auth.tunneling.disabledSchemes=
+java.specification.vendor=Oracle Corporation
+java.version.date=2022-04-19
+java.home=c:\users\profes~1\appdata\local\temp\e4jd6de.tmp_dir1748385095\jre
+file.separator=\
+java.vm.compressedOopsMode=32-bit
+line.separator=
+
+java.specification.name=Java Platform API Specification
+java.vm.specification.vendor=Oracle Corporation
+jdk.lang.Process.allowAmbiguousCommands=false
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+exe4j.moduleName=C:\Users\Professor\Downloads\IRPF2025Win64v1.3.exe
+exe4j.tempDir=C:\Users\PROFES~1\AppData\Local\Temp\e4jD6DE.tmp_dir1748385095
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=11.0.15+10
+user.name=Professor
+path.separator=;
+install4j.defaultLanguage=
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=Cp1252
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=Temurin-11.0.15+10
+exe4j.semaphoreName=Local\c:_users_professor_downloads_irpf2025win64v1.3.exe
+install4j.appDir=C:\Users\Professor\AppData\Local\Temp\
+java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues
+java.io.tmpdir=C:\Users\PROFES~1\AppData\Local\Temp\
+java.version=11.0.15
+user.dir=C:\Users\PROFES~1\AppData\Local\Temp\e4jD6DE.tmp_dir1748385095
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+sun.os.patch.level=
+flatlaf.useJetBrainsCustomDecorations=false
+java.library.path=c:\users\profes~1\appdata\local\temp\e4jd6de.tmp_dir1748385095\jre\bin;C:\Users\PROFES~1\AppData\Local\Temp\e4jD6DE.tmp_dir1748385095\user;C:\Program Files\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Professor\AppData\Local\Microsoft\WindowsApps;
+java.vm.info=mixed mode
+java.vendor=Eclipse Adoptium
+java.vm.version=11.0.15+10
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=55.0
+exe4j.launchName=C:\Users\Professor\Downloads\IRPF2025Win64v1.3.exe
